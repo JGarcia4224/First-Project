@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/JGarcia4224/First-Project/issues"
   },
-  "homepage": "https://github.com/JGarcia4224/First-Project#readme"
+  "homepage": "https://github.com/JGarcia4224/First-Project#readme",
+  "dependencies": {
+    "express": "^4.16.2"
+  }
 }
