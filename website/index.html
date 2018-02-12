@@ -9,8 +9,10 @@
 </head>
 <body>
    <header>
-        <h1>Garcia, Jesse</h1>
-    <hr>
+       <div class="Header">
+           <h1>Garcia, Jesse</h1>
+       </div>
+    
    </header> 
   
    <div class="welcome">
@@ -25,38 +27,74 @@
    <!--Image-->
    <div class="pic">
        <img src="images/Doggo.png" alt="SampleImage">
-       <p>this is a doggo</p>
    </div>
-   
+   <br>
 
     <div class="box-1">
         <h2>About Me</h2>
-        <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis quasi eum ducimus sint. Autem error assumenda reprehenderit ex impedit, voluptatem magni molestiae hic odio natus? Non accusantium commodi officiis itaque!
+        <p> 
+            <em><strong><u>Education</u></strong></em>
         </p>
+        <p>2018, Bachelor of IS, CSULB</p>
+
+        <p>
+
+            <em><strong><u>Skills</u></strong></em> 
+        </p>
+        <ol>
+            <li>SQL, PL/SQL</li>
+            <li>Python, CSS/HTML, C++</li>
+            
+        </ol>
+
+        <p>
+            <em><strong><u>Expectation For This Course</u></strong></em>
+        </p>
+        <p>I wanna learn shit... ya know, BE the internet. I wanna be like Neo from "The Matrix."</p>
     </div>
    
-
+<BR>
     <!--ContactForm-->
-    <form>
-        <div class="box-2">
+    <form class=formborder>
+        <h2>Contact Me</h2>
+        <fieldset class="form">
+            <label for="">Name:</label>
+            <input type="text" name="Name"> <br>
+            
+            <label for="">Email:</label>
+            <input type="Email" name="Email"> <br>
+            
+            <label for="">Message:</label>
+            <textarea name="Message" id="" cols="30" rows="10"></textarea> <br>
+
+            <button type="submit">Send your message</button>
+        </fieldset>
+       
+    </form>
+
+</body>
+</html>
+
+
+
+<!--<div class="box-2">
         <div>
             <label for="">Name:</label>
             <input type="text" name="Name">
         </div>
+        <br>
         <div>
             <label for="">Email:</label>
             <input type="email" name="eMail">
         </div>
+        <br>
         <div>
             <label for="">Message:</label>
             <textarea name="Message" id="" cols="30" rows="10"></textarea>
         </div>
+        <br>
         <div>
             <button type="submit">Send your message</button>
         </div>
-     </div>
-    </form>
-</body>
-</html>
-
+     </div> !-->
+      

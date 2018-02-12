@@ -1,3 +1,79 @@
 h1{
-    color:green
+    color:green;
+    font-family: Arial, Helvetica, sans-serif;
+    
+    
+}
+
+.Header{
+    border-bottom: 5px solid green;
+    width: 900px;
+    justify-content: center;
+    text-align: center;
+    margin: auto;
+}
+
+h2{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.welcome{
+    text-align:center;
+    
+}
+
+.pic{
+    
+    text-align: center;
+    
+}
+
+.box-1{
+    border-left:5px solid red;
+    border-right:5px solid red;
+    margin-top: 20px;
+    width: 450px;
+    height:378px;
+    text-align:left;
+    float:left;
+    padding-right: 100px;
+     
+}
+.form{ border: 1px solid;
+    border-radius: 5px;
+    
+    justify-content: right;
+    text-align: center;
+
+}
+
+.form label{
+    display: block;
+    
+}
+.form input{
+    
+}
+
+.formborder{
+    border-top: solid 5px red;
+    border-bottom: solid 5px red;
+    border-right: solid 5px red;
+    border-left: solid 5px red;
+    margin-bottom: 120px;
+    
+}
+
+
+
+.box-2{
+    width: 450px;
+    align-content: right;
+    border: 5px solid red;
+    float: right;
+    padding-left: 50px;
+    padding-top: 20px;
+    
+    
 }
