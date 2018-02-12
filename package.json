@@ -19,7 +19,8 @@
   },
   "homepage": "https://github.com/JGarcia4224/First-Project#readme",
   "dependencies": {
-    "express": "^4.16.2"
+    "express": "^4.16.2",
+    "production": "0.0.2"
   },
   "engines": {
     "node": "9.5.0"
